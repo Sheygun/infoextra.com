@@ -143,8 +143,9 @@
 								<!-- //////////////////comments/////////////////// -->
 								<div id="comment_post">
 									<img src="image/IMG-20180526-WA0009.jpg" id="baby">
-									<h3>Hannah Micks</h3>
-									<p>hmmmmmm, wonderful </p>
+									<h3 id="userName1"></h3>
+									<p id="userPost1"></p>
+									<div id="date"></div>
 									<input type="submit" name="Reply" value="Reply" style="margin-left: 15px; padding: 5px; width: 100px;">
 								</div><br>
 
@@ -162,12 +163,12 @@
 							<textarea id="textarea" placeholder="comments"></textarea>
 						<form>
 							<span style="margin-left: 15px;">Name *</span><br>
-							<input type="text" name="name" class="shift" placeholder="Surname first"><br>
+							<input type="text" name="name" class="shift" id="name" placeholder="Surname first"><br>
 							<span style="margin-left: 15px;">Email *</span><br>
-							<input type="email" name="email" class="shift"><br>
+							<input type="email" name="email" id="email" class="shift"><br>
 							<span style="margin-left: 15px;">Website </span><br>
 							<input type="url" name="website" class="shift"><br><br>
-							<input type="button" name="post" value="Post Comment" id="post"><br><br>
+							<input type="button" name="post" value="Post Comment" id="post" onclick="post_comment()"><br><br>
 						</form>
 							
 						</div>
@@ -189,5 +190,6 @@
 		</footer><hr>
 		<!-- ......................................................... -->
 </div>
+<script src="javascript/java.js"></script>
 </body>
 </html>

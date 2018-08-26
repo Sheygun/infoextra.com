@@ -1,6 +1,14 @@
+body{
+	background-color: rgba(0,0,0,0.7);
+}
+*{
+	font-family: Footlight MT Light; 
+}
 #my_body{
-	background: lightblue;
-	width: 100%;
+	background: #99ddff;
+	width: 80%;
+	margin-left: 150px;
+	margin-right: 100px;
 	border-radius: 20px;
 	font-family: Footlight MT Light;
 }
@@ -27,18 +35,20 @@
 }
 
 #search_button{
+	margin-top: 5px;
 	float: right;
 	color: red;
 	font-size: 18px;
 	font-weight: bold;
 }
 #login_id{
+	margin-top: 10px;
 	margin-left: 10px;
 	float: right;
 	font-size: 18px;
 	font-weight: bold;
 	color: red;
-	margin-right: 30px;
+	margin-right: 10%;
 
 }
 #my_table{
@@ -83,7 +93,7 @@
 	font-size: 70px;
 	margin-top: 10px;
 	height: 130px;
-	width: 700px;
+	width: 400px;
 	color: red;
 	float: left;
 	margin-left: 10px;
