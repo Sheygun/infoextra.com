@@ -1,4 +1,3 @@
-<!doctype html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +12,7 @@
 <body>
 <div id="my_body">
 		<!-- ......................................................... -->
-			<hr><nav id="top_menu1">
+			<br><nav id="top_menu1">
 			<div>
 				<div><img src="image/info.jpg" id="img"></div>
 				<div id="samdos">
@@ -25,7 +24,7 @@
 				</div>
 
 			</div>
-			</nav><hr>
+			</nav>
 			<!-- ......................................................... -->
 			<hr><nav id="top_menu3">
 					<div id="search_button">
@@ -40,7 +39,7 @@
 								</table>
 					</div>
 								<div id="login_id">
-										<br>
+										
 									<table class="border_table" width="200">
 										<tr><td>Login  </td></tr>
 										<tr><td class="line">Register</td></tr>
@@ -55,7 +54,7 @@
 
 						
 
-			</nav><hr>
+			</nav>
 		<!-- ......................................................... -->
 									<hr><nav id="top_menu">
 										<div>
@@ -93,33 +92,36 @@
 
 		<div id="about"><hr>
 				<div id="about_us">
-					<span style="color: red;"> PROF. LANRE FAGBOHUN'S GREETINGS TO ALL FRESHER. </span>
+					<span style="color: white;"> PROF. LANRE'S GREETING TO ALL FRESHER </span>
 				</div>
-
-				<div id="images">
-									<img src="image/IMG_20180326_203234.jpg" width="auto" height="500">
-							</div>
 
 						<div id="science_complex">
 							This appears to be the new building in the lagos state university ojo campus. the school which comprises of thousands of students studying different courses has been able to construct more buildings and provide more facilities to the school. here below is the image of the new building at faculty of scienc, Ojo campus
 						</div>
 
-							
+							<div>
+									<img id="images" src="image/IMG_20180319_154036.jpg">
+							</div>
 							
 						<div id="science_complex">
 								This appears to be the new building in the lagos state university ojo campus. the school which comprises of thousands of students studying different courses has been able to construct more buildings and provide more facilities to the school. here below is the image of the new building at faculty of scienc, Ojo campus
 						</div>
 							<div id="science_complex">
 								This appears to be the new building in the lagos state university ojo campus. the school which comprises of thousands of students studying different courses has been able to construct more buildings and provide more facilities to the school. here below is the image of the new building at faculty of scienc, Ojo campus
-						</div>
+							</div>
 						<div id="science_complex">
 							<p>posted by: Hon Sheygun<br>
 							references: www.infoextra.com</p>
-						</div><br>
+						</div>
+			<div id="see_more">
+				<div id="linked_to_page" style="color: red;">Related Posts</div>
+				<div id="linked_to_page" onclick="window.open('1one.html')">***   SEE THE NEW MODERN COMPUTER LAB IN SCIENCE COMPLEX</div>
+				<div id="linked_to_page" onclick="window.open('2two.html')">***   VIEW DR. TOYIN'S MOBILE NUMBERS AND EMAIL</div>
+			</div>
 
 
 							<div>
-								<hr><hr><h1 style="text-align: center; color: red">COMMENTS</h1>
+								<hr><h1 id="comments_design">COMMENTS</h1>
 
 										<!-- //////////////////comments/////////////////// -->
 								<div id="comment_post">
@@ -128,27 +130,6 @@
 									<p>lovely post, i knew something like this will happen, keep it up admin, kudos</p>
 									<input type="submit" name="Reply" value="Reply" style="margin-left: 15px; padding: 5px; width: 100px;">
 								</div><br>
-								<!-- //////////////////comments/////////////////// -->
-								<div id="comment_post">
-									<img src="image/IMG-20180526-WA0009.jpg" id="baby">
-									<h3>Olabayo Segun</h3>
-									<p>wonderful</p>
-									<input type="submit" name="Reply" value="Reply" style="margin-left: 15px; padding: 5px; width: 100px;">
-								</div><br>
-								<!-- //////////////////comments/////////////////// -->
-								<div id="comment_post">
-									<img src="image/IMG-20180526-WA0009.jpg" id="baby">
-									<h3>Samuel Pogba</h3>
-									<p>how on earth is that possible</p>
-									<input type="submit" name="Reply" value="Reply" style="margin-left: 15px; padding: 5px; width: 100px;">
-								</div><br>
-								<!-- //////////////////comments/////////////////// -->
-								<div id="comment_post">
-									<img src="image/IMG-20180526-WA0009.jpg" id="baby">
-									<h3>Hannah Micks</h3>
-									<p>hmmmmmm, wonderful </p>
-									<input type="submit" name="Reply" value="Reply" style="margin-left: 15px; padding: 5px; width: 100px;">
-								</div><br>
 
 
 							</div>
@@ -156,7 +137,7 @@
 
 
 
-				</div>
+		</div>
 						<hr><div id="comment"><br>
 							<p id="reply">Leave a Reply<br><br>
 							Your email address will not be published. Required fields are marked *<br><br>
@@ -164,15 +145,15 @@
 							<textarea id="textarea" placeholder="comments"></textarea>
 						<form>
 							<span style="margin-left: 15px;">Name *</span><br>
-							<input type="text" name="name" class="shift" placeholder="Surname first"><br>
+							<input type="text" name="name" class="shift" id="name" placeholder="Surname first"><br>
 							<span style="margin-left: 15px;">Email *</span><br>
-							<input type="email" name="email" class="shift"><br>
+							<input type="email" name="email" id="email" class="shift"><br>
 							<span style="margin-left: 15px;">Website </span><br>
 							<input type="url" name="website" class="shift"><br><br>
-							<input type="button" name="post" value="Post Comment" id="post"><br><br>
+							<input type="button" name="post" value="Post Comment" id="post" onclick="post_comment()"><br><br>
 						</form>
 							
-		</div>
+						</div>
 		<!-- ......................................................... -->
 			<hr><div id="advert">
 				
@@ -188,8 +169,9 @@
 									<tr><td class="line"><a href="policy.html" style="color: red;">POLICIES AND TERMS</a></td></tr>
 								</table>
 			<p>Copyright 2018 Sheygun Technology Institute, All Right Reserved. <br> Designed and Conceived by Samdos</p>
-		</footer><hr>
+		</footer>
 		<!-- ......................................................... -->
 </div>
+<script src="javascript/java.js"></script>
 </body>
 </html>
