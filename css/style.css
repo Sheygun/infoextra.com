@@ -1,35 +1,49 @@
 body{
 	background-color: rgba(0,0,0,0.7);
-	position: relative;
-	width: 100hv;
+	position: static;
+	background-attachment: fixed;
+	
 }
 *{
-	font-family: Footlight MT Light, Time New Roman, Helvetica; 
+	font-family: Footlight MT Light, Time New Roman, Helvetica;
+	position: relative;
 }
 #my_body{
-	margin-top: 50px;
+	margin: 50px 150px;
 	background: #99ddff;
-	width: 80%;
-	margin-left: 150px;
-	margin-right: 100px;
+	position: absolute;
 	border-radius: 20px;
 	font-family: Footlight MT Light;
 }
+#info-extra{
+	color: blue; 
+	position: absolute;
+	clear: left;
+	font-size: 70px; 
+	}
 #top_menu1{
+	overflow: auto;
+	clear: left;
 	height: 100px;
+	max-width: auto;
+	position: static;
+	background-attachment: fixed;
 	margin-right: 150px; margin-left: 150px;
 	background-color: white;
 	border-radius: 10px;
 }
 
 #top_menu3{
+	overflow: auto;
 	height: 150px;
+	position: static;
 	margin-right: 10px; margin-left: 10px;
 	background-color: white;
 	border-radius: 10px;
 
 }
-#top_menu{
+#home-menu-bar{
+	overflow: auto;
 	 width: 90%;
 	margin-right: 20px; margin-left: 50px;
 	background-color: white;
@@ -40,7 +54,7 @@ body{
 #search_button{
 	margin-top: 5px;
 	margin-left: 5px;
-	margin-right: 20px;
+	margin-right: 10px;
 	float: right;
 	color: red;
 	font-size: 18px;
@@ -48,13 +62,16 @@ body{
 }
 #login_id{
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 5px;
 	float: right;
 	font-size: 18px;
 	font-weight: bold;
 	color: red;
 	margin-right: 3%;
 
+}
+#login-reg{
+	width: 200px;
 }
 #my_table{
 	font-family: Footlight MT Light;
@@ -64,6 +81,13 @@ body{
 	color: red;
 	width: 98.5%;
 	margin-right: 10px; margin-left: 10px;margin-top: 10px;
+	border-radius: 10px;
+}
+.my_line:hover{
+	background-color: lightblue;
+	opacity: 0.7;
+	transition: 1s;
+	margin-right: 20px; margin-left: 20px;
 	border-radius: 10px;
 }
 .my_line{
@@ -77,10 +101,11 @@ body{
 	margin-left: 10px;
 	float: left;
 	height: 100px;
+	position: static;
 }
 #samdos{
 	text-align: center; font-family: Castellar;
-	font-size: 70px; color: red;
+	color: red;
 	font-weight: bolder;
 
 }
@@ -117,6 +142,12 @@ body{
 	padding: 8px;
 	font-size: 20px;
 	color: red;
+}#lists:hover{
+	background-color: lightblue;
+	opacity: 0.9;
+	transition: 1s;
+	border-radius: 10px;
+
 }
 a{
 	text-decoration: none;
@@ -125,10 +156,27 @@ a{
 	border: 2px solid blue;
 	border-radius: 5px;
 	color: green;
+	cursor: pointer;
 
 }
 .line{
 	border-top: 2px solid blue;
+}.line:hover{
+	background-color: white;
+	opacity: 0.9;
+	transition: 1s;
+	border-radius: 10px;
+
+}.line-footer:hover{
+	background-color: white;
+	opacity: 0.9;
+	transition: 0.3s;
+	border-radius: 10px;
+
+}
+.line-footer{
+	border-top: 2px solid blue;
+	padding: 6px;
 }
 #spanning{
 	font-size: 30px;
@@ -152,7 +200,7 @@ a{
 	height: 120px;
 	margin-right: 10px; margin-left: 10px;
 	background-color: #99ddff;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	border-radius: 50px;
 	text-align: center;
 	color: red;
@@ -200,4 +248,264 @@ a{
 	font-family: Footlight MT Light, Time New Roman, Helvetica;
 	font-size: 20px;
 	margin-left: 20px;
+}#com{
+	font-family: Lucida Calligraphy;
+	font-size: 24px; color: green;
 }
+#text-for-search{
+	height: 20px;
+	border-radius: 5px; 
+	width: 200px;
+}
+#button-for-search{
+	 height: 30px;
+	 border-radius: 5px;
+	 background-color: black; 
+	 color: white
+}
+
+
+/*---------------------making the web responsive----------------*/
+@media only screen and (max-width: 1300px) and (min-width: 1150px){
+	#my_body{margin: 50px 120px;}
+	#top_menu1{
+		height: 150px;
+		margin-right: 100px; margin-left: 100px;}
+	
+	#top_menu3{height: 140px;}
+	#search_button{
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 10px;
+	font-size: 16px;}
+			#text-for-search{
+			height: 16px; 
+			width: 150px;}
+			#button-for-search{
+			 height: 22px;}
+			 	#login_id{
+				margin-top: 10px;
+				margin-left: 5px;
+				float: right;
+				font-size: 16px;
+				margin-right: 3px;}
+				#login-reg{width: 160px;}
+		#advert1{
+	font-size: 60px;
+	margin-top: 10px;
+	height: 120px;
+	width: 45%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;}
+
+
+	#lists{font-size: 20px;}
+	#my_table{font-size: 20px; width:94%; margin-right: 10px; margin-left: 20px;margin-top: 10px;}
+	#top_menu1{height: 90px;}
+	#img{height: 90px;}
+	#info-extra{font-size: 70px; margin-top: 5px;}
+	#com{font-size: 15px;}
+	#home-menu-bar{margin-right: 20px; margin-left: 20px; width: 94%;}
+	#down_menu{font-size: 20px;}
+
+}
+
+
+@media only screen and (max-width: 1150px) and (min-width: 950px){
+	#my_body{margin: 50px 120px;}
+	#top_menu1{
+		height: 150px;
+		margin-right: 100px; margin-left: 100px;}
+	
+	#top_menu3{height: 265px;}
+	#search_button{
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 30px;
+	font-size: 20px;}
+			#text-for-search{
+			height: 16px; 
+			width: 160px;}
+			#button-for-search{
+			 height: 22px;}
+			 	#login_id{
+				margin-top: 10px;
+				margin-left: 30px;
+				float: left;
+				font-size: 20px;
+				margin-right: 3px;}
+				#login-reg{width: 200px;}
+		#advert1{
+	font-size: 60px;
+	margin-top: 10px;
+	height: 100px;
+	width: 96%;
+	margin-left: 10px;
+	margin-right: 30px;}
+
+
+	#lists{font-size: 20px;}
+	#my_table{font-size: 20px; width:94%; margin-right: 10px; margin-left: 20px;margin-top: 10px;}
+	#top_menu1{height: 90px;}
+	#img{height: 80px;}
+	#info-extra{font-size: 55px; margin-top: 5px;}
+	#com{font-size: 15px;}
+	#home-menu-bar{margin-right: 20px; margin-left: 20px; width: 94%;}
+	#down_menu{font-size: 20px;}
+	#para_news{
+	font-size: 16px;
+	margin-left: 200px; margin-right: 200px;}
+	#introduction{
+	 font-size: 20px;}
+
+}
+
+
+@media only screen and (max-width: 950px) and (min-width: 750px){
+	#my_body{margin: 35px 80px;}
+	#top_menu1{
+		height: 130px;
+		margin-right: 40px; margin-left: 40px;}
+	
+	#top_menu3{height: 260px;}
+	#search_button{
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 30px;
+	font-size: 16px;}
+			#text-for-search{
+			height: 16px; 
+			width: 160px;}
+			#button-for-search{
+			 height: 22px;}
+			 	#login_id{
+				margin-top: 10px;
+				margin-left: 30px;
+				float: left;
+				font-size: 16px;
+				margin-right: 3px;}
+				#login-reg{width: 200px;}
+		#advert1{
+	font-size: 50px;
+	margin-top: 10px;
+	height: 100px;
+	width: 96%;
+	margin-left: 10px;
+	margin-right: 30px;}
+
+
+	#lists{font-size: 16px;}
+	#my_table{font-size: 18px; width:94%; margin-right: 10px; margin-left: 20px;margin-top: 10px;}
+	#top_menu1{height: 90px;}
+	#img{height: 90px;}
+	#info-extra{font-size: 55px; margin-top: 15px;}
+	#com{font-size: 13px;}
+	#home-menu-bar{margin-right: 20px; margin-left: 20px; width: 94%;}
+	#down_menu{font-size: 16px;}
+	#para_news{
+	font-size: 16px;
+	margin-left: 180px; margin-right: 180px;}
+	#introduction{
+	 font-size: 16px;}
+
+}
+
+@media only screen and (max-width: 750px) and (min-width: 580px){
+	#my_body{margin: 20px 50px;}
+	#top_menu1{
+		height: 100px;
+		margin-right: 30px; margin-left: 30px;}
+	
+	#top_menu3{height: 230px;}
+	#search_button{
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 30px;
+	font-size: 12px;}
+			#text-for-search{
+			height: 14px; 
+			width: 120px;}
+			#button-for-search{
+			 height: 18px;}
+			 	#login_id{
+				margin-top: 10px;
+				margin-left: 30px;
+				float: left;
+				font-size: 12px;
+				margin-right: 3px;}
+				#login-reg{width: 150px;}
+		#advert1{
+	font-size: 50px;
+	margin-top: 10px;
+	height: 100px;
+	width: 96%;
+	margin-left: 10px;
+	margin-right: 30px;}
+
+
+	#lists{font-size: 14px;}
+	#my_table{font-size: 14px; width:90%; margin-right: 10px; margin-left: 20px;margin-top: 10px;}
+	#top_menu1{height: 80px;}
+	#img{height: 80px;}
+	#info-extra{font-size: 40px; margin-top: 20px;}
+	#com{font-size: 10px;}
+	#home-menu-bar{margin-right: 20px; margin-left: 20px; width: 90%;}
+	#down_menu{font-size: 14px;}
+	#para_news{
+	font-size: 14px;
+	margin-left: 120px; margin-right: 120px;}
+	#introduction{
+	 font-size: 14px;}
+	
+}
+	@media only screen and (max-width: 580px) and (min-width: 10px){
+	#my_body{margin: 10px 20px;}
+	#top_menu1{
+		height: 100px;
+		margin-right: 20px; margin-left: 20px;}
+	
+	#top_menu3{height: 230px;}
+	#search_button{
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 15px;
+	font-size: 12px;}
+			#text-for-search{
+			height: 14px; 
+			width: 120px;}
+			#button-for-search{
+			 height: 18px;}
+			 	#login_id{
+				margin-top: 10px;
+				margin-left: 15px;
+				float: left;
+				font-size: 12px;
+				margin-right: 3px;}
+				#login-reg{width: 110px;}
+		#advert1{
+	font-size: 50px;
+	margin-top: 10px;
+	height: 100px;
+	width: 96%;
+	margin-left: 10px;
+	margin-right: 30px;}
+
+
+	#lists{font-size: 12px;}
+	#my_table{font-size: 14px; width:90%; margin-right: 10px; margin-left: 20px;margin-top: 10px;}
+	#top_menu1{height: 80px;}
+	#img{height: 60px;}
+	#info-extra{font-size: 35px; margin-top: 15px;}
+	#com{font-size: 10px;}
+	#home-menu-bar{margin-right: 20px; margin-left: 20px;}
+	#down_menu{font-size: 12px;
+		}
+	#para_news{
+	font-size: 14px;
+	margin-left: 100px; margin-right: 100px;}
+	#introduction{
+	 font-size: 14px;}
+	
+}
+

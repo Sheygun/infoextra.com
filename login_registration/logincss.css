@@ -1,0 +1,192 @@
+body{
+margin:0% 0% 0% 0%;
+background-color: rgba(0,0,0,0.7);
+}
+#my_body{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: #99ddff;
+	width: 80%;
+	margin-left: 150px;
+	margin-right: 100px;
+	border-radius: 20px;
+	font-family: Footlight MT Light;
+}
+
+#top_menu{
+	background: #99ddff;
+	height: 50px;
+	width: auto;
+	margin-right: 40px; margin-left: 250px;
+	border-radius: 10px;
+}
+#top_menu1{
+	height: 100px;
+	margin-right: 150px; margin-left: 150px;
+	background-color: white;
+	border-radius: 10px;
+}
+#img{
+	margin-left: 10px;
+	float: left;
+	height: 100px;
+}
+#samdos{
+	text-align: center;
+	font-family: Footlight MT Light;
+	font-size: 70px; color: red;
+	font-weight: bolder;
+
+}
+#linked{
+	color: white;
+	float: left;
+	font-family: Geometr415 Blk BT;
+	font-weight: bolder;
+	font-size: 28px;
+	margin-top: 5px;
+	margin-left: 120px;
+}
+#in{
+	background-color: blue;
+	padding: 1px;
+	border-radius: 2px;
+}
+#my_form{
+	float: right; 
+	margin-right: 120px;
+}
+.textbox{
+	width: 200px;
+	height: 30px;
+	margin-right: 8px; margin-top: 8px;
+	border-radius: 3px;
+}
+.submit{
+	height: 30px;
+	width: 100px;
+	border-radius: 3px;
+	border-color: white;
+	text-align: center;
+	background-color: rgb(36,71,86);
+	color: white; 
+	font-size: 16px;
+}
+#middle_menu{
+	margin:0% 0% 0% 0%;
+	height: 530px;
+	background-image: url('linkedin.jpg');
+	background-size: cover;
+	background-position: center center;
+	position:relative;
+	background-repeat: no-repeat;
+}
+#images{
+	width: 100%;
+	height: 560px;
+	float: right;
+}
+/* -----------------footer--------------------------*/
+#down_menu{
+	height: 120px;
+	margin-right: 10px; margin-left: 10px;
+	background-color: #99ddff;
+	margin-bottom: 50px;
+	border-radius: 50px;
+	text-align: center;
+	color: red;
+	font-size: 18px;
+	padding: 5px;
+}
+.footer_table{
+	font-weight: bold;
+	color: red;
+	margin-right: 30px;
+	float: right;
+}
+.line{
+	border-top: 2px solid blue;
+}.line:hover{
+	background-color: white;
+	opacity: 0.9;
+	transition: 1s;
+	border-radius: 10px;
+
+}a{
+	text-decoration: none;
+}
+/* --------------footer end----------------------------------*/
+#center_form{
+	margin-left: 300px; margin-right: 320px;
+	background-color: white;
+	height: 460px;
+	border-radius: 10px;
+}
+#great{
+	height: 100px;
+	background-color: rgb(247,247,247);
+	text-align: center;
+}
+.what_you_do{
+	font-size: 26px;
+	font-family: Calibri Light;
+	color: rgb(115,115,115);
+}
+.get_started{
+	font-size: 18px;
+	font-family: Calibri Light;
+	color: rgb(50,50,50);
+	font-weight: bold;
+}
+#form_two{
+	height: 370px;
+	background-color: rgb(231,232,245);
+
+}
+#forms2{
+	margin-left: 25px;
+}
+.shift{
+	color: rgb(88,88,88);
+	font-family: Calibri;
+
+}
+.boxes{
+	width: 350px;
+	height: 30px;
+	border-radius: 2px;
+	margin-bottom: 10px; margin-top: 3px;
+	border:0.50px solid rgb(200,200,200);
+}
+#clicking{
+	text-align: center;
+	font-size: 13px;
+	font-family: calibri;
+	color: rgb(115,115,115);
+}
+#join_now{
+	width: 350px;
+	height: 30px;
+	border-radius: 4px;margin-bottom: 10px;
+	border:0px;
+	background: blue;
+	color: rgb(241,240,239);
+	margin-left: 25px;
+	font-family: calibri;
+	font-size: 18px;
+}
+#my_form3{
+	float: right; 
+	margin-right: 400px; margin-top: 20px;
+}
+.submit2{
+	height: 30px;
+	width: 100px;
+	border-radius: 3px;
+	border:0.50px solid rgb(119,119,119);
+	border-color: rgb(119,119,119);
+	text-align: center;
+	background-color: rgb(77,77,77);
+	color: rgb(119,119,119); 
+	font-size: 16px;
+}
